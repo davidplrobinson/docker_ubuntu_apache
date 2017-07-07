@@ -4,5 +4,5 @@ services:
       image: w3serv/ubuntu:apache
       restart: on-failure
       ports:
-        - "80:80"
-        - "443:443"
+        - "80"
+        - "443"
